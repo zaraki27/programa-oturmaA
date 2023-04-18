@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: sans-serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.cabecalho {
+    background-color: #424E61;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 24px 0;
+}
+
+.cabecalho-imagem{
+    width: 15%;
+}
+
+.cabecalho-lista-item{
+    display: inline-block;
+    margin: 0 16px;
+    font-size: 20px;
+}
+
+.escola-imagem{
+    width: 25%;
+}
+
+.escola{
+    background-image: linear-gradient(#424E61,#16CFF8);
+    color:white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 24px 0;
+}
+
+.escola-div-conteudo{
+    width: 35%;
+}
+
+.escola-titulo{
+    padding: 24px 0;
+}
+
+.Galeria {
+    background-color: #16CFF8;
+}
+
+.Galeria-título {
+    font-size: 50px;
+    color: white;
+    text-align: center;    
+}
+
+.Galeria-div {
+   
+ }
+   
+ .Galeria-foto {
+    width: 50%;
+ }
+
+ .Nome-aluno  {
+    font-size: 20px;
+    color: white;     
+ }
+
+ .Cidade-aluno {
+    font-size: 20px;
+    color: white;   
+ }
+ 
+.todos-alunos {
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+} 
